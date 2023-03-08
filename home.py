@@ -9,14 +9,14 @@ import matplotlib.pyplot as plt
 import datetime
 from PIL import Image
 
-image = Image.open('logo_rextoil_2.png')
+#image = Image.open('logo_rextoil_2.png')
 
 
 # SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE AND FAVICON
 st.set_page_config(layout="wide", page_title="Novus Mando", page_icon="⚙️")
 
 st.title('Novus Mando ⚙️ - rextoil -beta-')
-st.image(image, caption='Monitoreo Inteligente de Rextoil con tecnología Novus Solutions')
+#st.image(image, caption='Monitoreo Inteligente de Rextoil con tecnología Novus Solutions')
 
 option = st.selectbox(
     'Elige la gasolinera inteligente de análisis',
